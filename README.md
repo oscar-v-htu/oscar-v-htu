@@ -1,4 +1,4 @@
-👋 Hi, I'm Oscar
+# * 👋 Hi, I'm Oscar
 Student at Ho Technical University (HTU)
 
 I am an analytical thinker focused on AI Training, Logic, and Technical Troubleshooting.
