@@ -1,16 +1,14 @@
-## Hi there 👋
+👋 Hi, I'm Oscar
+Student at Ho Technical University (HTU)
 
-<!--
-**oscar-v-htu/oscar-v-htu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am an analytical thinker focused on AI Training, Logic, and Technical Troubleshooting.
 
-Here are some ideas to get you started:
+🛠️ Technical Focus
+Algorithmic Logic: Designing structured process flows using Flowgorithm.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Linux Systems: Configuring Debian-based environments on ChromeOS.
+
+Data Integrity: Ensuring accuracy and quality in technical datasets.
+
+📈 Currently Seeking
+Opportunities in AI Data Annotation, Technical Generalist roles, and Logic Evaluation.
