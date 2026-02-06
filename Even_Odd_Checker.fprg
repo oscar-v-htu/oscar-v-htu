@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Even_Odd_Checker"/>
+        <attribute name="authors" value="vordzorgbeoscar02"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-06 06:48:56 PM"/>
+        <attribute name="created" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA2OjQ1OjEyIFBNOzM1NDA="/>
+        <attribute name="edited" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA2OjQ4OjU2IFBNOzE7MzY1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="UserNumber" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter any whole number:&quot;" newline="True"/>
+            <input variable="UserNumber"/>
+            <if expression="UserNumber % 2 == 0">
+                <then>
+                    <output expression="&quot;This number is EVEN.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;This number is ODD.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

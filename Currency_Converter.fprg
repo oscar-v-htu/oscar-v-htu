@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Currency_Converter"/>
+        <attribute name="authors" value="vordzorgbeoscar02"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-06 06:42:28 PM"/>
+        <attribute name="created" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA2OjE2OjMxIFBNOzM1Mzk="/>
+        <attribute name="edited" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA2OjQyOjI4IFBNOzE7MzY1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AmountInGHS, ExchangeRate, AmountInUSD" type="Real" array="False" size=""/>
+            <assign variable="ExchangeRate" expression="0"/>
+            <assign variable="AmountInGHS" expression="0"/>
+            <output expression="&quot;Enter the current exchange rate&quot;" newline="True"/>
+            <input variable="ExchangeRate"/>
+            <output expression="&quot;Enter Cedis:&quot;" newline="True"/>
+            <input variable="AmountInGHS"/>
+            <assign variable="AmountInUSD" expression="AmountInGHS / ExchangeRate"/>
+            <output expression="&quot;The total is $&quot; &amp; AmountInUSD" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="HTU_Grade_Logic"/>
+        <attribute name="authors" value="vordzorgbeoscar02"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-06 06:10:27 PM"/>
+        <attribute name="created" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA1OjU5OjIwIFBNOzM1NDM="/>
+        <attribute name="edited" value="dm9yZHpvcmdiZW9zY2FyMDI7UEVOR1VJTjsyMDI2LTAyLTA2OzA2OjEwOjI3IFBNOzE7MzY0Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="StudentScore" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your score&quot;" newline="True"/>
+            <input variable="StudentScore"/>
+            <if expression="StudentScore &gt;= 50">
+                <then>
+                    <output expression="&quot;Congratulations, you passed HTU requirements!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Score below threshold. Please re-evaluate.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
